@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //adding numbers using immediately invoked functions
+var c=(function (a=5,b=5){
+ return (a+b)
+})
+console.log(c())
+//adding numbers using named functions
+function fn(a,b){
+ return (a+b)
+}console.log(fn(7,3))
+//adding numbers using arrowed functions
+var fn=(a,b)=>{
+ return (a+b)
+}
+console.log(fn(4,6));
+//even and odd numbers using anonmous functions
+var v=function(a,b){
+return a+b
+}
+console.log(fn(9,1))
+    </script>
+</body>
+</html>
